@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mars Info - Web Scrape Challenge</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="jumbotron text-center">
+      <h1>Mars Info - Web Scraping Challenge</h1>
+      <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Refresh Data</a></p>
+    </div>
+
+    <!-- Mars Data -->
+    <div class="row" id="craiglist-listings">
+      <div class="col-md-12">
+        <h4 class="heading">{{mars_data.news_title}}</h4>
+        <h4 class="heading">{{mars_data.news_p}}</h4>
+        <h4 class="heading">{{mars_data.hemisphere_images}}</h4>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
+
