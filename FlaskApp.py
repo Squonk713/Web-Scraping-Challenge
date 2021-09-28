@@ -20,7 +20,7 @@ def home():
     mars_dict = db.mars_dict.find_one()
 
     # Return template and data
-    return render_template("index.html", mars_data=mars_dict)
+    return render_template("index.html", mars_dict=mars_dict)
 
 
 # Route that will trigger the scrape function
